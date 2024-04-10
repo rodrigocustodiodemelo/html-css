@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>limks</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;   
+        }
+        a {
+            color: darkred;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(25, 141, 7);
+        }
+        a:hover{
+          color: black;
+          text-decoration: underline;
+        }
+        a:active{
+          color: blue;  
+        }
+        a::after{
+           content: '[link]';
+           text-decoration: none;
+           font-weight: normal; 
+           color:  dimgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara" target="_self">repositorio gitrub</a></li>
+        <li><a href="https://www.bing.com/search?q=canal+no+you+tube+gustavo+guanabara&qs=HS&sc=10-0&cvid=A400458E7BCA4EEDB2BEF7376DB91DB2&FORM=QBRE&sp=1&lq=0" target="_self">cana no youtube</a></li>
+        <li><a href="https://www.bing.com/search?pglt=43&q=site+curso+em+video&cvid=83bd0719dc1248b69eb0a7ccb20cb060&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBggCEEUYOzIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQNIBCDQwNTdqMGoxqAIAsAIA&FORM=ANNTA1&PC=LCTS" target="_self">site cursoem video</a></li>
+    </ul>
+</body>
+</html>

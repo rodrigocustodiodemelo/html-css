@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elementos</title>
+    <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        .a:hover{
+            color: darkred;
+            font-size: 20px;
+        }
+       div:hover{
+        color: darkred;
+        font-size: 20px;
+       }
+       div  p{
+        display: none;
+       }
+       div:hover  p{
+        display: block;
+        color: blue;
+        background-color: chartreuse;
+        width: 200px;
+       }
+      
+       
+    </style>
+</head>
+<body>
+    <h1>aprendendo a tag hover</h1>
+    <p>passe o cursor no texto abaixo</p>
+    <div>passe aqui  <p>menu</p> </div>
+</body>
+</html>

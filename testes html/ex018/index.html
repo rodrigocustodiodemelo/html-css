@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio</title>
+    <style>
+      div{
+       
+        font-family: Arial, Helvetica, sans-serif;
+     
+        
+      }
+      .a{
+        background-color: aquamarine;
+       
+      }
+      .b{
+        background-color: blueviolet;
+      }
+      .c{
+        background-color: chartreuse;
+      }
+      div:hover{
+        background-color: brown;
+        
+      }
+      .a > p{
+        display: none;
+        
+      }
+      .a:hover > p{
+        display: block;
+        background-color: aquamarine;
+
+      }
+      .b:hover > p{
+        display: block;
+        background-color: blueviolet;
+      }
+      .b > p{
+        display: none;
+      }
+      
+      .c > p{
+        display: none;
+      }
+      .c:hover > p {
+        display: block;
+        background-color: chartreuse;
+      }
+      .ok:hover{
+       background-color: darkkhaki;
+      }
+      .ok:hover > p{
+        display: block;
+      }
+    </style>
+</head>
+<body>
+    <h1>hover</h1>
+    <div class="a"> <p class="ok">correto</p><p> azul</p> cor1 <hr></div>
+    <div class="b"> <p>roxo</p>cor2 <hr></div>
+    <div class="c"> <p>verde</p>cor3 <b><hr></b></div>
+</body>
+</html>

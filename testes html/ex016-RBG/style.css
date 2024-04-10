@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    color: white;
+    
+   
+}
+
+.conteudo-a{
+    background-image: linear-gradient( to right, rgba(0, 255, 255, 0.505),rgb(13, 13, 60));
+  
+   
+}
+
+.conteudo-b{
+    background-image: linear-gradient( to right,#3F5573,#6F87A6);
+    width: 550px;
+    right: 800px;
+    display: inline-block;
+   
+}
+.conteudo-c{
+    background-image: linear-gradient( to right, rgba(0, 255, 255, 0.505),rgb(13, 13, 60));
+    width: 550px;
+    right: 400px;
+    display: inline-block;
+}
+h1{
+    background-color:#222f4025 ;
+    color: white;
+}
+.pagina02{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.importante:hover{
+    color: darkred;
+}
+.contato{
+    display: none;
+}
+:hover> .contato{
+    display: block;
+   

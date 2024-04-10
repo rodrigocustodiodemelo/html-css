@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caixas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            background-color: rgba(255, 0, 255, 0.253);
+            margin: 10px;
+            width: 300px;
+           
+            padding: 10px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgb(185, 92, 199);
+            box-shadow: 5px 5px 5px black;
+            border-radius: 10px;
+         }
+         div :hover{
+           color: chartreuse;
+           font-size: 20px;
+           
+         }
+         a::after{
+            content:'[link]' ;
+            color: rgb(205, 0, 223);
+         }
+         div >p{
+            display: none;
+         }
+         div:hover > p{
+            display: block;
+            color: navy;
+         }
+         a:active{
+            color: yellow;
+         }
+         div{
+           margin-top: 30px;
+           margin-left: 30px;
+         }
+         
+         
+    </style>
+</head>
+<body>
+    <h1>conceitos de caixas em css</h1>
+    <div><a href="https://www.facebook.com/MSNBrasil/" target="_blank">veja este link</a> <p>cadastro no facebook</p></div>
+    
+</body>
+</html>
